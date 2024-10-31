@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #0a0a0a;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 10px 20px black;
+}
+
+h1.pergunta {
+    font-size: larger;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+    width: 400px;
+    height: 500px;
+    background-image: url(img/purplestar.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+nav {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    color: black;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+nav a {
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 260px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+g
+nav.nav2 {
+    margin-top: 60px;
+}
+ 
+nav a:hover {
+    background-color: rgb(231, 231, 231);
+    transform: scale(1.1);
+}
